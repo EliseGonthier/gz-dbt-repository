@@ -26,9 +26,8 @@ sources:
            identifier: raw_gz_ship
            description: purchase_price by products_id
            columns:
-             - name: products_id
+             - name: orders_id
                description: primary key of the table
                tests:
                  - unique
                  - not_null
-     
