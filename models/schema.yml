@@ -79,4 +79,11 @@ models: #je recherche dans models
               - name: ads_cost
                 tests:
                   - not_null
-
+models:
+  - name: finance_campaigns_day
+    description: "Join finance_days avec int_campaigns_day + calcul ads_margin"
+    columns:
+      - name: date
+        tests:
+          - not_null
+               
